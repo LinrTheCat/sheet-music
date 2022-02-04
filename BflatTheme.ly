@@ -26,14 +26,15 @@ right = \relative c'{
   <b e,>\< ( d c) a ( f' e) ||
   <cs a g>\ff ( g' e <f a,>\> e d) ||
   |
-  <d f,>\mf ( f e) <cs e,>( e d) ||
+  <d f,>\f ( f e) <cs e,>( e d) ||
   <g, d>( d' bf) <f d> c' a ||
   <ef bf>( bf' g) <c, a>
   a'16( g f ef || <d bf'>4)
   <a' ef' g>8( <bf d f>4)
   <a, ef' gf>8( || <bf d f>4)
   <ef gf>8 \repeat unfold 2 {<d f>16-. <ef gf>-.} 
-  <d f>8-.
+  <d f>8-. \bar "||"
+  \mark \markup { \musicglyph "scripts.ufermata" }
 
 }
 
