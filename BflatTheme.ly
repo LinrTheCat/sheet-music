@@ -7,7 +7,8 @@
 
 global = {
   \time 6/8
-  \key bf \major
+  \accidentalStyle Score.piano
+  %\key bf \major
 }
 
 right = \relative c'{
@@ -24,8 +25,14 @@ right = \relative c'{
   <a d,>8( c bf) g( ef' d) ||
   <b e,>( d c) a( f' e) ||
   <cs a g>( g' e <f a,> e d) ||
+  |
   <d f,>( f e) <cs e,>( e d) ||
   <g, d>( d' bf) <f d> c' a ||
+  <ef c>( bf' g) <c, a> a'16( g f ef ||
+  <d bf'>4) 
+
+
+
 }
 
 left = \relative c{
@@ -40,6 +47,14 @@ left = \relative c{
   fs (a fs,) g( <d' bf'>4) ||
   gs8 (b gs,) a( <e' c'>4) ||
   a,8( e' cs') <d, d'>4. ||
+  ||
+  <d a'>4. <a a'> ||
+  <bf g'> <d f> ||
+  <g, ef'> <f ef'> ||
+  <bf f'>4
+
+
+
 }
 
 \score {
@@ -49,5 +64,5 @@ left = \relative c{
   >>
 
   \layout {}
-  \midi {}
+  \midi { \tempo 4 = 80}
 }
