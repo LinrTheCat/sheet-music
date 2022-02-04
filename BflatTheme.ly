@@ -20,18 +20,20 @@ right = \relative c'{
   g\p ( bf a) fs\f ( bf a) ||
   g\p ( bf a16 g) fs8\f ( bf a) ||
   g\p ( bf a16 g) a\f ( ef' d c g a) ||
-  | % \break
+  | \break
   <d, bf' d>8-- \f\> ( f f' ef d c)\! ||
-  <a d,>8( c bf) g( ef' d) ||
-  <b e,>( d c) a( f' e) ||
-  <cs a g>( g' e <f a,> e d) ||
+  <a d,>8\p\< ( c bf) g ( ef' d) ||
+  <b e,>\< ( d c) a ( f' e) ||
+  <cs a g>\ff ( g' e <f a,>\> e d) ||
   |
-  <d f,>( f e) <cs e,>( e d) ||
+  <d f,>\mf ( f e) <cs e,>( e d) ||
   <g, d>( d' bf) <f d> c' a ||
-  <ef c>( bf' g) <c, a> a'16( g f ef ||
-  <d bf'>4) 
-
-
+  <ef bf>( bf' g) <c, a>
+  a'16( g f ef || <d bf'>4)
+  <a' ef' g>8( <bf d f>4)
+  <a, ef' gf>8( || <bf d f>4)
+  <ef gf>8 \repeat unfold 2 {<d f>16-. <ef gf>-.} 
+  <d f>8-.
 
 }
 
@@ -51,9 +53,11 @@ left = \relative c{
   <d a'>4. <a a'> ||
   <bf g'> <d f> ||
   <g, ef'> <f ef'> ||
-  <bf f'>4
-
-
+  <bf f'>4 <f f'>8
+  <bf bf'>4 <ef ef,>8 ||
+  <bf bf,>4 <ef ef,>8
+  \repeat unfold 2 {<bf, bf'>16-. ef-.}
+  <bf bf'>8-.
 
 }
 
