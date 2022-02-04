@@ -8,7 +8,7 @@
 global = {
   \time 6/8
   \accidentalStyle Score.piano
-  %\key bf \major
+  \key bf \major
 }
 
 right = \relative c'{
