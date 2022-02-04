@@ -20,9 +20,12 @@ right = \relative c'{
   g\p ( bf a16 g) fs8\f ( bf a) ||
   g\p ( bf a16 g) a\f ( ef' d c g a) ||
   | % \break
-  <d, d'>8-- \f\> ( f f' ef d c)\! ||
+  <d, bf' d>8-- \f\> ( f f' ef d c)\! ||
   <a d,>8( c bf) g( ef' d) ||
   <b e,>( d c) a( f' e) ||
+  <cs a g>( g' e <f a,> e d) ||
+  <d f,>( f e) <cs e,>( e d) ||
+  <g, d>( d' bf) <f d> c' a ||
 }
 
 left = \relative c{
@@ -36,7 +39,7 @@ left = \relative c{
   <bf, bf'>8( f' d' c bf a) ||
   fs (a fs,) g( <d' bf'>4) ||
   gs8 (b gs,) a( <e' c'>4) ||
-  
+  a,8( e' cs') <d, d'>4. ||
 }
 
 \score {
